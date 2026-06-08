@@ -1,0 +1,98 @@
+# Conditional Statements
+
+1. Write a program to check whether a number is positive or negative. 
+
+num = int(input("Enter a number: "))
+if num >= 0:
+    print("Positive Number")
+else:
+    print("Negative Number")
+
+2. Write a program to check whether a number is even or odd. 
+
+num = int(input("Enter a number: "))
+if num % 2 == 0:
+    print("Even Number")
+else:
+    print("Odd Number")
+
+3. Write a program to find the greater number between two numbers. 
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+if a > b:
+    print("Greater Number =", a)
+else:
+    print("Greater Number =", b)
+
+4. Write a program to check whether a person is eligible to vote (age ≥ 18).
+
+age = int(input("Enter age: "))
+if age >= 18:
+    print("Eligible to Vote")
+else:
+    print("Not Eligible to Vote")
+
+5. Write a program to check whether a number is divisible by 5. 
+
+num = int(input("Enter a number: "))
+if num % 5 == 0:
+    print("Divisible by 5")
+else:
+    print("Not Divisible by 5")
+
+6. Write a program to check whether a given year is a leap year or not. 
+
+year = int(input("Enter year: "))
+if year % 4 == 0:
+    print("Leap Year")
+else:
+    print("Not a Leap Year")
+
+7. Write a program to check whether a character is a vowel or a consonant. 
+
+ch = input("Enter a character: ")
+if ch.lower() in ['a', 'e', 'i', 'o', 'u']:
+    print("Vowel")
+else:
+    print("Consonant")
+
+8. Write a program to find the largest among three numbers. 
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+if a > b and a > c:
+    print("Largest =", a)
+elif b > c:
+    print("Largest =", b)
+else:
+    print("Largest =", c)
+
+9. Write a program to assign grades based on marks: 90 and above. A o 75 to 89 B a 50 to 74 C Below 50 Fail 
+
+marks = int(input("Enter marks: "))
+if marks >= 90:
+    print("Grade A")
+elif marks >= 75:
+    print("Grade B")
+elif marks >= 50:
+    print("Grade C")
+else:
+    print("Fail")
+
+10. Write a program to check whether a number is within the range of 1 to 100. 
+
+num = int(input("Enter a number: "))
+if num >= 1 and num <= 100:
+    print("Number is within range")
+else:
+    print("Number is out of range")
+
+
+
+Write a program to find the factorial of a given number using a while loop.
+
+
+Write a program to keep asking the user for a password until the correct password is entered 
+
